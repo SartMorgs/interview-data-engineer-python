@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: fct_fire_incidents__fire_incidents
+    description: >
+      Store metrics related to each fire incident

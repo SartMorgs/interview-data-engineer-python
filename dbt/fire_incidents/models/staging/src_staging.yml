@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: fire_incidents
+    description: Fire Incidents Database
+    schema: public
+    tables:
+      - name: fire_incidents

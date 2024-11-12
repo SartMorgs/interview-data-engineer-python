@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: stg_fire_incidents__fire_incidents
+    description: >
+      Fire Incidents Table

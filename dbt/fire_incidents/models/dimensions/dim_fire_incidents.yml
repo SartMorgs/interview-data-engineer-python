@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: dim_fire_incidents__date
+    description: >
+      Date Dimension
+  - name: dim_fire_incidents__incident_type
+    description: >
+      Incident Type Dimension
+  - name: dim_fire_incidents__location
+    description: >
+      Location Dimension
+  - name: dim_fire_incidents_battalion
+    description: >
+      Battalion Dimension

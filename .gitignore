@@ -1,0 +1,11 @@
+Include
+Lib
+Scripts
+pyvenv.cfg
+share
+spark-warehouse
+dbt/logs
+**.env
+**.envrc
+bin
+**/__pycache__

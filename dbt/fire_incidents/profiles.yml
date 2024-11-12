@@ -1,0 +1,21 @@
+ntd:
+  target: fire_incidents_target
+  outputs:
+    fire_incidents_source:
+      type: postgres
+      threads: 1
+      host: "{{ env_var('DBT_POSTGRES_HOST') }}"
+      user: "{{ env_var('DBT_POSTGRES_USER') }}"
+      password: "{{ env_var('DBT_POSTGRES_PASSWORD') }}"
+      port: 9090
+      dbname: "{{ env_var('DBT_POSTGRES_DB_NAME') }}"
+      schema: public
+    fire_incidents_target:
+      type: postgres
+      threads: 1
+      host: "{{ env_var('DBT_POSTGRES_HOST') }}"
+      user: "{{ env_var('DBT_POSTGRES_USER') }}"
+      password: "{{ env_var('DBT_POSTGRES_PASSWORD') }}"
+      port: 9090
+      dbname: "{{ env_var('DBT_POSTGRES_DB_NAME') }}"
+      schema: warehouse
